@@ -11,6 +11,11 @@ let package = Package(
         .library(
             name: "MetalPetal",
             targets: ["MetalPetal"]
+        ),
+        .library(
+            name: "MetalPetal",
+            type: .dynamic,
+            targets: ["MetalPetal"]
         )
     ],
     dependencies: [],

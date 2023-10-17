@@ -13,7 +13,7 @@ let package = Package(
             targets: ["MetalPetal"]
         ),
         .library(
-            name: "MetalPetal",
+            name: "MetalPetal-Dynamic",
             type: .dynamic,
             targets: ["MetalPetal"]
         )
